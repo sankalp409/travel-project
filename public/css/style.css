@@ -1,7 +1,13 @@
+/* Body */
 body {
   font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-
+.container {
+  flex: 1;
+}
 /*Nav bar*/
 .navbar {
   height: 5 rem;
@@ -44,7 +50,7 @@ body {
   align-items: center;
 }
 
-/*card*/
+/*All Listing card*/
 .card {
   border: none !important;
   margin-bottom: 2rem;
@@ -65,4 +71,15 @@ body {
 }
 .listing-link {
   text-decoration: none !important;
+}
+
+/* listing detail page */
+.card-show-img {
+  width: 100%;
+  max-width: 800px;
+  height: 40vh;
+  object-fit: cover;
+}
+.show-card-text {
+  padding-left: 1%;
 }
