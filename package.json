@@ -4,7 +4,9 @@
   "description": "This is the first learning project for web dev",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "Sankalp Yadav",
@@ -14,7 +16,11 @@
     "ejs": "^6.0.1",
     "ejs-mate": "^4.0.0",
     "express": "^5.2.1",
+    "joi": "^17.13.3",
     "method-override": "^3.0.0",
     "mongoose": "^9.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
